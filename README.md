@@ -2,7 +2,7 @@
 
 Este repositório contém exemplos e documentação para utilizar a API do Mapa Interativo da Almav.
 
-![almav Mapa Interativo](https://maps.app.almav.com/apiv1/assets/images/smart-urba-reserva-868w.jpg)
+![almav Mapa Interativo](assets/images/screen01.png)
 
 **Chave da API:** `9f1554e1-4089-46f6-9285-e54bea240a07`
 
