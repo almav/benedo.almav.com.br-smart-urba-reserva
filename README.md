@@ -2,7 +2,7 @@
 
 Este repositório contém exemplos e documentação para utilizar a API do Mapa Interativo da Almav.
 
-![almav Mapa Interativo](assets/images/screen01.png)
+![almav Mapa Interativo](https://raw.githubusercontent.com/almav/benedo.almav.com.br-smart-urba-reserva/main/assets/images/screen01.png)
 
 **Chave da API:** `9f1554e1-4089-46f6-9285-e54bea240a07`
 
@@ -28,7 +28,7 @@ Este repositório contém exemplos e documentação para utilizar a API do Mapa 
     - Certifique-se de que o Service Worker está ativo no seu navegador. Em navegadores como o Chrome, você pode verificar isso nas configurações de "Ferramentas do Desenvolvedor".
   - Instalar o Webapp (Opcional):
     - Alguns navegadores modernos, como o Google Chrome, oferecem a opção de instalar o webapp diretamente no seu dispositivo. Você verá um botão de instalação na barra de endereços ou um prompt perguntando se deseja "Adicionar à tela inicial".
-    - ![alt text](assets/images/instalar.png)
+    - ![alt text](https://raw.githubusercontent.com/almav/benedo.almav.com.br-smart-urba-reserva/main/assets/images/instalar.png)
 
 ## Exemplo de Uso
 
