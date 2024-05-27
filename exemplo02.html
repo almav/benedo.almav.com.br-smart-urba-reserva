@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google" content="notranslate">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:url" content="https://benedo.almav.com.br/smart-urba-reserva/index.html">
+    <meta property="og:title" content="Smart Urba Reserva">
+    <meta property="og:site_name" content="Smart Urba Reserva">
+    <meta property="og:description" content="Mapa Interativo do Loteamento Aberto - Votorantim - SP">
+    <meta property="og:image" content="https://maps.app.almav.com/apiv1/assets/images/smart-urba-reserva-868w.jpg">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="868">
+    <meta property="og:image:height" content="698">
+    <meta property="og:type" content="website">
+
+    <meta name="description"
+        content="Mapa Interativo do Loteamento Aberto - Votorantim - SP. Explore o Smart Urba Reserva com detalhes incríveis.">
+    <meta name="keywords" content="Mapa Interativo, Loteamento Aberto, Votorantim, SP, Smart Urba Reserva, Almav">
+
+    <link rel="apple-touch-icon" type="image/svg+xml" sizes="180x180"
+        href="https://maps.app.almav.com/apiv1/assets/ico/favicon-benedo.svg">
+    <link rel="icon" type="image/svg+xml" sizes="32x32"
+        href="https://maps.app.almav.com/apiv1/assets/ico/favicon-benedo.svg">
+    <link rel="icon" type="image/svg+xml" sizes="16x16"
+        href="https://maps.app.almav.com/apiv1/assets/ico/favicon-benedo.svg">
+    <link rel="manifest" href="https://maps.app.almav.com/apiv1/assets/ico/smarturbareserva.site.webmanifest">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Smart Urba Reserva">
+
+    <meta name="theme-color" content="#cccccc">
+
+    <link rel="icon" type="image/svg+xml" href="https://maps.app.almav.com/apiv1/assets/ico/favicon-benedo.svg" />
+
+    <title>Smart Urba Reserva</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333333;
+            font-size: 24px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #666666;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        #map {
+            width: 100%;
+            height: 550px;
+            background-color: #e0e0e0;
+        }
+    </style>
+    <script>
+        function initMap() {
+            map = new almav.maps.Map(document.getElementById('map'), {
+                fitBounds: true,
+                showButtonsZoom: true,
+            });
+        }
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Exemplo de Uso da API Almav Mapas Interativos</h1>
+        <h2>Mapa Interativo</h2>
+        <div id="map"></div>
+    </div>
+
+    <script
+        src="https://maps.app.almav.com/apiv1/js/almav-initmap.js?key=9f1554e1-4089-46f6-9285-e54bea240a07&callback=initMap"
+        defer></script>
+    <script src="https://maps.app.almav.com/apiv1/assets/vendor/richtr/NoSleep.min.js"></script>
+    <script>
+        var noSleep = new NoSleep();
+        noSleep.enable();
+    </script>
+</body>
+
+</html>
